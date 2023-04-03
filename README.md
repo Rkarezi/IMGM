@@ -10,21 +10,21 @@ IMGM allows users to instantly generate a 30 song playlist based on the images t
 
 ### Repo
 
-Copy the repo git clone https://github.com/Rkarezi/IMGM.git
+Copy the repo `git clone https://github.com/Rkarezi/IMGM.git`
 
 ### node module
 
-Install the modules npm install
+Install the modules `npm install`
 
 ### Running
 
 The client
 
-Run npm start
+Run `npm start`
 
 On the server
 
-Run node index.js
+Run `node index.js`
 
 ## Disclaimer
 
