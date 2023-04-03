@@ -1,0 +1,719 @@
+.navbar {
+    padding: 10px;
+}
+
+.nav .track-desc {
+    display: block !important;
+    width: 13vw !important;
+}
+
+.main-logo {
+    color: white;
+}
+
+.main-nav {
+    border-right: solid;
+    width: 18%;
+    z-index: 1;
+    padding: 0 !important;
+    max-width: 300px !important;
+
+}
+
+.navLink {
+    text-decoration: none;
+    color: lightgray;
+    padding: 0 !important;
+    border-color: black;
+    margin: 0 !important;
+}
+.nav-img{
+    width: 60px;
+    
+}
+
+.navLink:hover {
+    text-decoration: none;
+    color: white;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
+.navLink.active {
+    padding: 0 !important;
+    margin: 0 !important;
+
+}
+
+
+.container-fluid {
+    overflow: hidden;
+
+}
+
+span {
+    color: lightgray;
+}
+
+.main-nav {
+    background-color: black;
+    width: 18% !important;
+
+}
+
+
+.link {
+    width: 50%;
+    height: 100%;
+    z-index: 1;
+}
+
+.logo {
+    height: 25%;
+}
+
+.nav-play{
+    height: 400px;
+    overflow: scroll;
+    width: inherit;
+}
+.nav-play::-webkit-scrollbar {
+    display: none;
+  }
+
+.nav-play .navLink{
+font-size: .9em;
+}
+.login_container {
+margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tag {
+    padding: 10px;
+    color: #a9a9a9;
+}
+
+.img-responsive {
+    width: 30vw;
+    height: auto;
+    max-width: 400px;
+}
+
+.pro-img{ 
+    width: 150px;
+    margin: auto;
+}
+
+.chosen:hover {
+    box-shadow: 0px 0px 10px 10px lightgray;
+    transition: 50ms ease-in;
+    cursor: pointer;
+}
+
+.img-container {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 5px
+}
+
+
+.desc {
+    color: black;
+    padding: 10px;
+}
+
+.desc-wrapper {
+    width: 100%;
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.text-a{
+    display: inline !important;
+    margin: auto !important;
+    text-align: center !important;
+    
+}
+.container-fluid {
+    padding: 0 !important;
+}
+
+.card-main {
+    flex: 1;
+    max-width: 290px !important;
+
+}
+.card-main .card{
+min-height: 306px;
+}
+.playcard {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 35;
+    border-bottom-right-radius: 35;
+    overflow: scroll;
+    color: white;
+    overflow-x: hidden !important;
+}
+
+.user-playlist .playcard {
+    background-color: black;
+    height: 500px;
+    max-height: 700px;
+    max-width: 600px;
+    border-bottom-left-radius: 35;
+    border-bottom-right-radius: 35;
+    color: white;
+    left: 16%;
+    position: fixed !important;
+}
+
+.user-playlist {
+    width: 82% !important;
+}
+
+.img-wrap {
+    position: sticky;
+    height: fit-content;
+    color: white;
+    background: linear-gradient(0deg, black, darkgray);
+    top: 0%;
+    width: 100%;
+}
+
+.track-wrap {
+    min-height: 70px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.song-title {
+    padding-left: 8px !important;
+}
+
+.track-wrap:nth-child(even) {
+    background-color: #171717;
+}
+
+.items {
+    list-style: none;
+}
+
+.title-header {
+    margin-top: 10px !important;
+    bottom: 0%;
+
+}
+
+.artist-title {
+    padding-left: 7px !important;
+}
+
+
+.playlist-img {
+    width: 20%;
+    height: 20%;
+    max-width: 200px;
+
+
+}
+
+textarea {
+    resize: vertical;
+    max-height: 110px;
+}
+
+.toggle-wrap {
+    margin-top: 150px;
+    position: fixed;
+    width: 70% !important;
+    max-width: 300px;
+    max-height: 500px;
+    background-color: #303132;
+    z-index: 1;
+    padding: 10px;
+
+}
+
+.main-contain {
+    height: 100%;
+
+}
+
+.eventIcon:hover {
+    color: lightgrey;
+    cursor: pointer;
+}
+
+.img-wrap .eventIcon:first-child {
+
+    margin-left: -10px;
+    font-size: 1.5em !important;
+}
+
+
+.toggle-wrap .eventIcon {
+    padding: 5px;
+    margin-top: -15px;
+    margin-left: -5px;
+    z-index: 1;
+}
+.playlistIMG {
+    width: 100%;
+    mix-blend-mode: multiply;
+}
+
+.caption {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.track-desc {
+    overflow: hidden ;
+    white-space: nowrap ;
+    text-overflow: ellipsis ;
+
+
+}
+.title-header .col-md-4:first-child {
+
+    padding-left: 3px;
+}
+
+.playlistWrapper {
+    overflow: scroll;
+    width: 83%;
+    position: fixed;
+    height: 100%;
+}
+
+button{
+    text-decoration: none;
+    border: none !important;
+}
+.bgBlock {
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, .1);
+
+}
+
+.infocontainer {
+    width: 50%;
+    height: 60%;
+    z-index:1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+overflow: scroll;
+}
+
+.topArtImg {
+    width: 150px;
+    height: 150px;
+}
+
+.userName {
+
+    position: relative;
+    width: 82%;
+    padding: 10px;
+    margin-right: 0;
+    margin: 0;
+
+}
+
+.res-wrap {
+    display: inline-block;
+    margin-right: 3em;
+    margin-left: 3em;
+
+}
+
+.artist-imgs {
+    width: 82%;
+
+}
+.topArtistWrapper {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.profile-artist-header {
+    padding-left: 5px;
+
+}
+
+
+.left {
+    float: left;
+    margin-left: 10px;
+}
+
+.right {
+    float: right;
+    margin-right: 20px;
+}
+
+
+.float-wrapper {
+    margin-top: 70px;
+  
+}
+
+.main-cent {
+    max-width: 1620px;
+    text-align: center !important;
+
+    width: 81% !important;    
+}
+
+.backIcon {
+    color: white;
+}
+
+.backIcon:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.dropdownContainer {
+    width: 100%;
+}
+
+.playcardwrapper {
+
+    width: 82%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.formdiv input {
+    width: 100%;
+}
+
+input,
+textarea:-webkit-autofill,
+input,
+textarea:-webkit-autofill:active {
+    filter: none;
+    -webkit-box-shadow: 0 0 0 100px black inset !important;
+}
+
+input,
+textarea {
+    background-color: black !important;
+    -webkit-text-fill-color: white !important;
+  
+    resize: none !important;
+    width: 100%;
+ 
+}
+
+textarea{
+    outline:none ;
+    outline-width: 0 ;
+    box-shadow: none !important;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.card-body:hover {
+    cursor: pointer;
+    background: lightgray;
+}
+
+.card-container {
+    border: none;
+    margin-top: 15px;
+    min-width: 200px;
+}
+
+.rec .spinner_container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+.loading_spinner {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+
+}
+
+.center-spinner {
+    width: 82%;
+    position: absolute;
+    top: 30%;
+}
+
+.main-div .loading {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top: 30%;
+    width: 82%;
+}
+
+.create-button {
+    background: black;
+    width: 200px;
+    height: 50px;
+    padding: 7px 35px;
+    border-radius: 60px;
+    border-color: black;
+    color: white;
+    margin: 15px;
+
+}
+
+.desc-wrapper .create-button:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+
+.th-img{
+    
+    width: 50%;
+     float: left;
+    }
+    .th-img:nth-last-child(){
+        
+        float: right;
+}
+
+.nav-inner {
+    width: 100%;
+}
+
+.dropdown-menu .nav-drop {
+    display: none !important;
+}
+
+.main-div {
+    padding: 0 !important;
+}
+
+
+.track-desc {
+    padding-left: 10px !important;
+}
+
+.login-h{
+width:120px; 
+height: 120px;
+}
+.btn{
+ z-index: 1;
+  width: 300px;
+  max-width: 1000px;
+}
+
+.input-res{
+    display: block;
+    margin-top: 10px;
+    padding: 5px;
+    z-index: 3;
+    background: black;
+    color: white;
+}
+
+
+.input-container {
+    margin: 0 !important;
+    /* text-align: center; */
+    width: 300px;  
+    max-width: 100%;
+
+}
+
+.styled-input {
+
+    margin: 1rem 0;
+    position: relative;
+
+}
+
+.styled-input.wide {
+    width: 300px;
+    max-width: 100%;
+}
+
+.sbmt {
+    width: 100%;
+    text-align: center;
+    background: black;
+    padding: 7px;
+    border-radius: 60px;
+    border-color: black;
+    color: white;
+    margin: 15px;
+}
+
+.button-container {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    bottom: 100px;
+}
+
+.desc-container .button-container {
+    margin-top: 40vh;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+
+@media only screen and (max-width: 575px) {
+    .nav .track-desc {
+        display: none !important;
+    }
+
+    .dropdown-menu .nav-drop {
+        display: block !important;
+    }
+
+    .card-main .card {
+        max-width: 100%;
+    }
+
+    .card-main {
+        max-width: 100% !important;
+    }
+
+    .playlistWrapper {
+        width: 84%;
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .styled-input {
+        width: 100%;
+    }
+
+    .row.title-header {
+        display: none !important;
+    }
+
+    .artist {
+        font-size: 1.10em;
+    }
+
+    .album {
+        font-size: .7em;
+    }
+
+    .song {
+        font-size: .9em;
+    }
+
+
+}
+
+@media(max-width:875px) {
+    .res-wrap {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding: 10px;
+    }
+
+
+}
+
+@media(max-width: 390px) {
+    .main-nav {
+        width: 80px !important;
+    }
+
+    .row.title-header {
+        display: none !important;
+    }
+
+    textarea::-webkit-input-placeholder {
+        font-size: .70em;
+    }
+ 
+    input::-webkit-input-placeholder {
+        font-size: .70em;
+    }
+}
