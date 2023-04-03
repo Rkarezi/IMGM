@@ -152,9 +152,7 @@ margin-top: 30px;
     max-width: 290px !important;
 
 }
-.card-main .card{
-min-height: 306px;
-}
+
 .playcard {
     background-color: black;
     width: 100%;
@@ -445,7 +443,7 @@ textarea{
 .card-container {
     border: none;
     margin-top: 15px;
-    min-width: 200px;
+   
 }
 
 .rec .spinner_container {
@@ -544,7 +542,7 @@ height: 120px;
 
 .input-container {
     margin: 0 !important;
-    /* text-align: center; */
+
     width: 300px;  
     max-width: 100%;
 
@@ -650,13 +648,10 @@ height: 120px;
     .dropdown-menu .nav-drop {
         display: block !important;
     }
-
-    .card-main .card {
-        max-width: 100%;
-    }
-
+    
     .card-main {
-        max-width: 100% !important;
+        max-width: 100px !important;
+     
     }
 
     .playlistWrapper {

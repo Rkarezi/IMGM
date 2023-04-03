@@ -82,7 +82,7 @@ function playlist() {
               <div className="playcard infocontainer" ref={overflowRef}>
                 <div className="img-wrap container">
                   <CloseIcon
-                    classNameName="eventIcon"
+                    className="eventIcon"
                     onClick={closeModal}
                   ></CloseIcon>
                   <div className="d-flex justify-content-center align-items-center">

@@ -12,7 +12,9 @@ function PlaylistCard(props) {
           <figure>
             {<img src={PLAYLISTIMG} className="playlistIMG"></img>}
             <figcaption className="caption">
-              <h7 className="playlistNAME">{props.item.playlistName}</h7>
+              <h7 className="playlistNAME track-desc">
+                {props.item.playlistName}
+              </h7>
             </figcaption>
           </figure>
         </div>
