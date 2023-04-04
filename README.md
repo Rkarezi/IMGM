@@ -30,7 +30,7 @@ Run `node index.js`
 
 Due to the app being in development mode, Spotify's Development Policy only allow for verified accounts to login and access their API.
 
-Contact me if you any concerns.
+Contact me if you have any concerns.
 
 ## Context
 
